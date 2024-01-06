@@ -1,0 +1,28 @@
+Libraries to install
+
+wheel
+twint
+nltk
+tqdm
+matplotlib
+tensorflow
+pip install pycorenlp   // stanford nlp client
+pip install pandas-datareader
+pip install yfinance
+
+// pip install -U scikit-learn
+
+// after installing nltk library you have to download the stopwords dataset using below commands in python terminal
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
+// installing Stanford NLP sentiment analyzer
+wget http://nlp.stanford.edu/software/stanford-corenlp-latest.zip
+https://downloads.cs.stanford.edu/nlp/software/stanford-corenlp-4.2.2-models-english.jar
+
+// install JRE 8+ to run stanford NLP
+sudo apt-get install openjdk-8-jdk
+
+// run below command to run standford NLP server
+java -mx6g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -timeout 5000
